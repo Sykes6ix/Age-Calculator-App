@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--Grey-100);
+
+}
+ :root {
+    --purple: hsl(259, 100%, 65%);
+    --red: hsl(0, 100%, 67%);
+    --white: hsl(0, 100%, 100%);
+    --Grey-100: hsl(0, 0%, 94%);
+    --Grey-200: hsl(0, 0%, 86%);
+    --Grey-500: hsl(0, 1%, 44%);
+    --Black: hsl(0, 0%, 0%);
+
+ }
+
+ main {
+    width: 400px;
+    background-color:var(--white);
+    padding: 30px;
+    border-radius: 10px 10px 30% ;
+    position: relative;
+ }
+form{
+    
+   width: 80%;
+   display: grid;
+   grid-template-columns:auto auto auto ;
+   gap: 10px;
+
+}
+
+form input{
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border-color: var(--Grey-200);
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid var(--Grey-200);
+}
+ 
+ .field {
+   
+    display: flex;
+    flex-direction: column;
+    
+
+ }
+    
+ label {
+    display: block;
+    margin-bottom: 3px ;
+    font-size: 7px;
+    font-weight: 900;
+    color: var(--Grey-500);
+    letter-spacing: 2px;
+    
+}
+.error{
+   font-size: 7px;
+   margin-top: 3px;
+   font-style: italic;
+   color: var(--red);
+   visibility: hidden;
+
+}
+
+  input.input-error {
+   border: 1px solid var(--red);
+ }
+
+ input:focus {
+   border: 1px solid var(--purple);
+   outline: none;
+   caret-color: var(--purple);
+ }
+ 
+ button{
+    border: none;
+    border-radius: 50%;
+    background-color: var(--purple);
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: -20px;
+    transition: background-color 0.3s;
+
+ }
+
+ button img{
+      width: 25px;
+      height: 23px;
+ }
+ button:hover{
+   background-color: var(--Black);
+
+ }
+hr {
+    position: relative;
+    border: none;
+    height: 1px;
+    background-color: var(--Grey-200);
+    margin: 20px 0;
+    width: 90%;
+}
+.line-container {
+    position: relative;
+}
+ .result {
+   font-style: italic;
+   font-weight: 800;
+   font-size: 42px;
+   line-height: 1.1;
+   margin-top: 25px;
+ }
+   
+
+span{
+    color: var(--purple);
+     font-style: italic;
+    font-weight: 800;
+}
+
+@media (max-width: 375px) {
+   
+    main {
+        width: 90%;
+        padding: 20px;
+    }
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        width: 58px;
+        height: 55px;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+    button img{
+         width: 80%;
+         height:80%;
+    }
+
+    form {
+      margin-bottom: 40px;
+      width: 100%;
+      gap: 16px;
+    
+   
+    }
+    label {
+      font-size: 10px;
+    }
+    form input{
+      width: 100%;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: large;
+    }
+    .line-container{
+      margin-bottom: 50px;
+    }
+
+    hr{
+      width: 100%;
+    }
+
+    .result{
+      font-size: 40px;
+      margin-top: 60px;
+      margin-bottom: 15px;
+    }
+
+
+}
+
+
