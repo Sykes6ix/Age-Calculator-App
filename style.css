@@ -150,6 +150,7 @@ span{
         width: 58px;
         height: 55px;
         right: 50%;
+        top: 50%;
         transform: translate(50%, -50%);
     }
     button img{
@@ -174,7 +175,9 @@ span{
       font-size: large;
     }
     .line-container{
-      margin-bottom: 50px;
+      margin-top: 60px;
+  
+    
     }
 
     hr{
