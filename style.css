@@ -148,10 +148,14 @@ span{
 
 @media (max-width: 375px) {
    
-    main {
-        width: 90%;
-        padding: 20px;
+    .project {
+        width: 100%;
+        padding: 10px;
     }
+    main{
+      padding: 20px;
+    }
+  
     button {
       display: flex;
       align-items: center;
@@ -197,6 +201,11 @@ span{
       font-size: 40px;
       margin-top: 60px;
       margin-bottom: 15px;
+    }
+
+    footer {
+      margin-bottom: 20px;
+      font-size: small;
     }
 
 
