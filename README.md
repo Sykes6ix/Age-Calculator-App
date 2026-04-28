@@ -12,6 +12,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+ 
 
 ## Overview
 
@@ -32,6 +33,10 @@ Users should be able to:
 ### Screenshot
 
 <img width="340" height="386" alt="Age Calculator App" src="https://github.com/user-attachments/assets/83b1ff30-8a90-48c7-8e65-4153143df806" />
+
+### Live-Demo
+
+Check out the live version here: [Age Calculator App](https://sykes6ix.github.io/Age-Calculator-App/)
 
 ### Download
 
