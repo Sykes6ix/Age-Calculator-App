@@ -84,6 +84,12 @@ function getAge() {
     document.querySelector('.date-result').textContent = ageDays;
 };
 
+document.addEventListener('keydown', function(event){
+    if (event.key ==='Enter') {
+        getAge();
+    }
+});
+
     
 
 
